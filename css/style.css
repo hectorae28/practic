@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #606c88;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, hsl(265, 100%, 66%),/*  hsl(322, 100%, 66%), */#fff);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, hsl(265, 100%, 66%),/*  hsl(322, 100%, 66%), */#fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: #fff;
+}
+.header{
+    margin: 0;
+    padding: 70px 50px;
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+.button{
+    width: 200px;
+    background: #fff;
+    border:1px #fff solid;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*
+<************FUENTES****************>
+font-family: 'Poppins', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
