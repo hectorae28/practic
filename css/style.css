@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: #606c88;  /* fallback for old browsers */
+    background: #25003d;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to left, hsl(265, 100%, 66%),/*  hsl(322, 100%, 66%), */#fff);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to left, hsl(265, 100%, 66%),/*  hsl(322, 100%, 66%), */#fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #00252E;
@@ -42,6 +42,27 @@ body{
     border: hsl(322, 100%, 66%) 1px solid;
     border-radius: 5px;
     background-color: hsl(322, 100%, 66%);
+}
+.iusers{
+    display: flex;
+    margin: 500px 70px 70px;
+}
+.iusers-img{
+    /* width: 50%; */
+    margin-right: 100px;
+}
+.iusers-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 30px;
+}
+.iusers-text h2{
+    margin-bottom: 0px;
+}
+.iusers-text p{
+    margin-top: 0px;
 }
 /*
 <************FUENTES****************>
