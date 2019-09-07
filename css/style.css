@@ -4,7 +4,7 @@ body{
     background: #25003d;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to left, hsl(265, 100%, 66%),/*  hsl(322, 100%, 66%), */#fff);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to left, hsl(265, 100%, 66%),/*  hsl(322, 100%, 66%), */#fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #00252E;
+    color: hsl(192, 100%, 9%);
     font-family: 'Open Sans', sans-serif;
 }
 .header{
@@ -45,7 +45,7 @@ body{
 }
 .iusers{
     display: flex;
-    margin: 500px 100px 70px;
+    margin: 500px 100px 300px;
 }
 .iusers-img{
     /* width: 50%; */
@@ -63,6 +63,38 @@ body{
 }
 .iusers-text p{
     margin-top: 10px;
+}
+.oferta{
+    display: flex;
+    justify-content: center;
+}
+.oferta-container{
+    width: 700px;
+    height: 300px;
+    padding: 20px;
+    background: #fff;
+    border:1px white solid;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.oferta-title{
+    margin-bottom:10px;
+}
+.oferta-text{
+    font-size: 20px;
+    color: hsl(208, 11%, 55%);
+    margin:0px 0px 40px;
+}
+.oferta-button{
+    width:250px;
+    padding: 20px;
+    color:#fff;
+    border: hsl(322, 100%, 66%) 1px solid;
+    border-radius: 5px;
+    background-color: hsl(322, 100%, 66%);
 }
 /*
 <************FUENTES****************>
