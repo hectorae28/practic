@@ -45,7 +45,7 @@ body{
 }
 .iusers{
     display: flex;
-    margin: 500px 70px 70px;
+    margin: 500px 100px 70px;
 }
 .iusers-img{
     /* width: 50%; */
@@ -59,10 +59,10 @@ body{
     line-height: 30px;
 }
 .iusers-text h2{
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 .iusers-text p{
-    margin-top: 0px;
+    margin-top: 10px;
 }
 /*
 <************FUENTES****************>
