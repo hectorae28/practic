@@ -96,6 +96,65 @@ body{
     border-radius: 5px;
     background-color: hsl(322, 100%, 66%);
 }
+.contact{
+    margin-top:300px;
+	background: #00aaff;
+
+	color: white;
+
+	height: 100px;
+
+	display: flex;
+
+	align-items: center;
+
+	justify-content: center;
+
+	padding: 15px;
+
+}
+
+.social{
+
+	display:flex;
+
+}
+
+.social-link{
+
+	width: 50px;
+
+	height: 50px;
+
+	margin: 5px;
+
+	background-size: 50px 50px;
+
+}
+
+.social-link.twitter{
+
+	background-image: url('../images/twitter.svg');
+
+}
+
+.social-link.facebook{
+
+	background-image: url('../images/facebook.svg');
+
+}
+
+.social-link.github{
+
+	background-image: url('../images/github.svg');
+
+}
+
+.social-link.instagram{
+
+	background-image: url('../images/instagram.svg');
+
+}
 /*
 <************FUENTES****************>
 font-family: 'Poppins', sans-serif;
