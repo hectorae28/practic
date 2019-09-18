@@ -45,10 +45,11 @@ body{
 }
 .iusers{
     display: flex;
-    margin: 500px 100px 300px;
+    margin: 500px 0 300px;
 }
 .iusers-img{
-    /* width: 50%; */
+    width: 400px;
+    height:500px;
     margin-right: 100px;
 }
 .iusers-text{
@@ -99,61 +100,50 @@ body{
 .contact{
     margin-top:300px;
 	background: #00aaff;
-
 	color: white;
-
 	height: 100px;
-
-	display: flex;
-
+    display: flex;
+    flex-direction:column;
 	align-items: center;
-
 	justify-content: center;
-
 	padding: 15px;
-
 }
 
 .social{
-
-	display:flex;
-
+    display:flex;
 }
 
 .social-link{
-
 	width: 50px;
-
 	height: 50px;
-
 	margin: 5px;
-
 	background-size: 50px 50px;
-
 }
 
 .social-link.twitter{
-
 	background-image: url('../images/twitter.svg');
-
 }
 
 .social-link.facebook{
-
 	background-image: url('../images/facebook.svg');
-
 }
 
 .social-link.github{
-
 	background-image: url('../images/github.svg');
-
 }
 
 .social-link.instagram{
-
 	background-image: url('../images/instagram.svg');
-
+}
+.container{
+    margin: 0 auto;
+	width: 1000px;
+	height: inherit;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+    flex-wrap: inherit;
+    flex-direction: inherit;
 }
 /*
 <************FUENTES****************>
